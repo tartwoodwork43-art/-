@@ -1,0 +1,90 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+locale: "he"
+collections:
+  - name: "site"
+    label: "תוכן האתר"
+    files:
+      - file: "content/site.json"
+        name: "site_data"
+        label: "הגדרות, מוצרים וגלריות"
+        format: "json"
+        fields:
+          - label: "הגדרות כלליות"
+            name: "settings"
+            widget: "object"
+            fields:
+              - {label: "שם העסק", name: "businessName", widget: "string"}
+              - {label: "כותרת משנה", name: "subtitle", widget: "string"}
+              - {label: "סלוגן", name: "slogan", widget: "string"}
+              - {label: "טלפון", name: "phone", widget: "string"}
+              - {label: "וואטסאפ ללא פלוס", name: "whatsapp", widget: "string"}
+              - {label: "אימייל", name: "email", widget: "string"}
+              - {label: "מיקום", name: "location", widget: "string", required: false}
+              - {label: "קישור אינסטגרם", name: "instagram", widget: "string"}
+              - {label: "קישור פייסבוק", name: "facebook", widget: "string"}
+              - {label: "לוגו", name: "logo", widget: "image", required: false}
+          - label: "באנר ראשי - תמונות מתחלפות"
+            name: "heroSlides"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "כותרת", name: "title", widget: "string"}
+              - {label: "טקסט", name: "text", widget: "text"}
+              - {label: "תמונה", name: "image", widget: "image"}
+          - label: "אודות טל"
+            name: "about"
+            widget: "object"
+            fields:
+              - {label: "כותרת", name: "title", widget: "string"}
+              - {label: "תמונה ראשית", name: "image", widget: "image", required: false}
+              - label: "גלריית תמונות של טל"
+                name: "gallery"
+                widget: "list"
+                field: {label: "תמונה", name: "image", widget: "image"}
+              - {label: "טקסט", name: "text", widget: "text"}
+          - label: "קטגוריות ומוצרים"
+            name: "categories"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - {label: "מזהה באנגלית", name: "id", widget: "string"}
+              - {label: "שם קטגוריה", name: "name", widget: "string"}
+              - {label: "טקסט פתיחה", name: "intro", widget: "text"}
+              - {label: "תמונת קטגוריה", name: "cover", widget: "image"}
+              - label: "מוצרים / פריטים"
+                name: "products"
+                widget: "list"
+                summary: "{{fields.name}} - {{fields.price}}"
+                fields:
+                  - {label: "שם מוצר", name: "name", widget: "string"}
+                  - {label: "מחיר", name: "price", widget: "string", required: false}
+                  - {label: "תיאור", name: "description", widget: "text", required: false}
+                  - {label: "תמונה ראשית", name: "image", widget: "image"}
+                  - label: "תמונות נוספות"
+                    name: "gallery"
+                    widget: "list"
+                    required: false
+                    field: {label: "תמונה", name: "image", widget: "image"}
+          - label: "תערוכות"
+            name: "exhibitions"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "כותרת", name: "title", widget: "string"}
+              - {label: "תאריך", name: "date", widget: "string", required: false}
+              - {label: "מיקום", name: "location", widget: "string", required: false}
+              - {label: "תיאור", name: "description", widget: "text", required: false}
+              - {label: "תמונה", name: "image", widget: "image", required: false}
+              - {label: "להציג באתר?", name: "active", widget: "boolean", default: true}
+          - label: "ביקורות לקוחות"
+            name: "testimonials"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - {label: "שם", name: "name", widget: "string"}
+              - {label: "טקסט ביקורת", name: "text", widget: "text"}
+              - {label: "דירוג", name: "rating", widget: "string", required: false}

@@ -1,0 +1,237 @@
+{
+  "settings": {
+    "businessName": "T-Art",
+    "subtitle": "אמנות בעץ, אפוקסי ומתכת",
+    "slogan": "יצירות עם אופי. עבודת יד עם נשמה.",
+    "phone": "+972-50-888-9879",
+    "whatsapp": "972508889879",
+    "email": "tartwoodwork43@gmail.com",
+    "location": "ישראל",
+    "instagram": "https://www.instagram.com/talivri_t",
+    "facebook": "https://www.facebook.com/search/top?q=%D7%98%D7%9C%20%D7%A2%D7%91%D7%A8%D7%99%20t-art%20woodwork",
+    "logo": "assets/images/logo.jpeg"
+  },
+  "heroSlides": [
+    {
+      "title": "אמנות בעץ, אפוקסי ומתכת",
+      "text": "יצירות בעבודת יד המשלבות חומרי גלם טבעיים, דיוק ואהבה ליצירה.",
+      "image": "assets/images/hero_standard.jpeg"
+    },
+    {
+      "title": "עבודת יד עם נשמה",
+      "text": "מזוזות, סטנדרים, מעמדי יין, שלטים, שולחנות וסדנאות.",
+      "image": "assets/images/hero_wine.jpeg"
+    },
+    {
+      "title": "כל יצירה מספרת סיפור",
+      "text": "הזמנות אישיות, פריטים חד־פעמיים וחיבור אמיתי לחומר.",
+      "image": "assets/images/hero_table.jpeg"
+    }
+  ],
+  "about": {
+    "title": "שלום, אני טל עברי.",
+    "image": "assets/images/tal_piano.jpeg",
+    "gallery": [
+      "assets/images/tal_piano.jpeg",
+      "assets/images/tal_ski.jpeg",
+      "assets/images/tal_vineyard.jpeg",
+      "assets/images/tal_work.jpeg"
+    ],
+    "text": "אני בן 16, ו־T-Art נולדה מתוך אהבה פשוטה ליצירה.\n\nהכול התחיל אצלי בבית – מעבודות קטנות בעץ, אפוקסי ומתכת שיצרתי לעצמי ולמשפחה. אהבתי לקחת חומרי גלם טבעיים, לשלב ביניהם וליצור פריטים מיוחדים, כאלה שיש להם אופי וסיפור.\n\nעם הזמן, אנשים סביבי התחילו להתעניין ביצירות, לבקש עבודות עבורם ולהזמין מוצרים בהתאמה אישית. מה שהתחיל כתחביב ואהבה ליצירה, הפך בהדרגה לעסק קטן שצומח ומתפתח.\n\nמתוך עולם האמנות בעץ נולדו גם פרויקטים גדולים יותר – בניית פרגולות, גדרות, עבודות ריתוך, נפחות ועבודות מתכת שונות. כל תחום חדש אפשר לי ללמוד, להתפתח ולהוסיף כלים חדשים לעולם היצירה שלי.\n\nכשאני לא בסטודיו, אני מתאמן באימוני משקל גוף, אוהב לטייל, לעשות סקי, להרחיב ולהעשיר את הידע הכללי שלי, מנגן, מדריך בבני עקיבא ומבלה זמן עם משפחה וחברים.\n\nהשנה נטעתי כרם ענבים לזכר נופלי אפרת – פרויקט אישי שמחבר אותי לאדמה, לזיכרון ולעשייה משמעותית.\n\nהחלום שלי הוא להמשיך ליצור, להתפתח ולבנות את T-Art כסטודיו ישראלי לאמנות בעץ, אפוקסי ומתכת – מקום שבו כל יצירה היא יחידה במינה."
+  },
+  "categories": [
+    {
+      "id": "home",
+      "name": "לבית",
+      "intro": "שולחנות, קרשי חלה, תמונות ופריטי עיצוב לבית בעבודת יד.",
+      "cover": "assets/images/home_table.jpeg",
+      "products": [
+        {
+          "name": "שולחן עץ וברזל",
+          "price": "500–700 ₪",
+          "description": "שילוב עץ טבעי ורגלי ברזל בעבודת נפחות.",
+          "image": "assets/images/home_table.jpeg",
+          "gallery": [
+            "assets/images/home_table.jpeg",
+            "assets/images/home_bench.jpeg"
+          ]
+        },
+        {
+          "name": "קרש חלה",
+          "price": "300 ₪",
+          "description": "שילוב עץ זית / סיסם הודי ואפוקסי.",
+          "image": "assets/images/home_challah.jpeg",
+          "gallery": [
+            "assets/images/home_challah.jpeg"
+          ]
+        },
+        {
+          "name": "תמונה בחריטה ואפוקסי",
+          "price": "החל מ־700 ₪",
+          "description": "תמונה לפי הזמנה אישית. לדוגמה: 60×60 ס״מ.",
+          "image": "assets/images/hero_table.jpeg",
+          "gallery": [
+            "assets/images/hero_table.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mezuzot",
+      "name": "מזוזות",
+      "intro": "מזוזות בעבודת יד מעץ זית ואפוקסי, עם אפשרות להתאמה אישית.",
+      "cover": "assets/images/mezuzah_group.jpeg",
+      "products": [
+        {
+          "name": "מזוזה גדולה",
+          "price": "200 ₪",
+          "description": "שילוב עץ זית ואפוקסי. ניתן להזמין בהתאמה אישית, לעיתים בתוספת תשלום.",
+          "image": "assets/images/mezuzah_group.jpeg",
+          "gallery": [
+            "assets/images/mezuzah_group.jpeg",
+            "assets/images/mezuzah_blue.jpeg"
+          ]
+        },
+        {
+          "name": "מזוזה קטנה",
+          "price": "180 ₪",
+          "description": "מזוזה קטנה בעיצוב עץ ואפוקסי.",
+          "image": "assets/images/mezuzah_orange.jpeg",
+          "gallery": [
+            "assets/images/mezuzah_orange.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wine",
+      "name": "מעמדי יין",
+      "intro": "מעמדי יין מעץ ואפוקסי – מתנה ייחודית, אירוח וסטייל.",
+      "cover": "assets/images/wine_pair.jpeg",
+      "products": [
+        {
+          "name": "דגם נטע",
+          "price": "240 ₪",
+          "description": "מעמד ליין ולכוסות בשילוב עץ ואפוקסי.",
+          "image": "assets/images/wine_pair.jpeg",
+          "gallery": [
+            "assets/images/wine_pair.jpeg"
+          ]
+        },
+        {
+          "name": "מארז בראשית",
+          "price": "300 ₪",
+          "description": "דגם נטע כולל בקבוק יין באריזה יפה.",
+          "image": "assets/images/wine_beresheet.jpeg",
+          "gallery": [
+            "assets/images/wine_beresheet.jpeg"
+          ]
+        },
+        {
+          "name": "דגם יעל",
+          "price": "130 ₪",
+          "description": "מעמד אלכסוני מעץ ואפוקסי.",
+          "image": "assets/images/wine_yael.jpeg",
+          "gallery": [
+            "assets/images/wine_yael.jpeg"
+          ]
+        },
+        {
+          "name": "דגם יעל אורן",
+          "price": "40 ₪",
+          "description": "מעמד אלכסוני מעץ אורן שרוף. ניתן להזמין בכמויות לאירועים עם הנחות כמות.",
+          "image": "assets/images/wine_yael.jpeg",
+          "gallery": [
+            "assets/images/wine_yael.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shtenders",
+      "name": "סטנדרים",
+      "intro": "סטנדרים מעץ זית / סיסם הודי ואפוקסי.",
+      "cover": "assets/images/standard_open.jpeg",
+      "products": [
+        {
+          "name": "סטנדר עץ ואפוקסי",
+          "price": "450 ₪",
+          "description": "סטנדר בעבודת יד בשילוב עץ זית / סיסם הודי ואפוקסי.",
+          "image": "assets/images/standard_open.jpeg",
+          "gallery": [
+            "assets/images/standard_open.jpeg",
+            "assets/images/standard_closed.jpeg",
+            "assets/images/standard_detail.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "signs",
+      "name": "שלטים לבית",
+      "intro": "שלטים אישיים לבית בחריטה, עץ, אפוקסי ואותיות אלומיניום.",
+      "cover": "assets/images/signs_group.jpeg",
+      "products": [
+        {
+          "name": "שלט לבית בהתאמה אישית",
+          "price": "200 ₪",
+          "description": "חריטה בעץ, שילוב אפוקסי ועץ זית. אותיות אלומיניום בלייזר: 25 ₪ לאות.",
+          "image": "assets/images/signs_group.jpeg",
+          "gallery": [
+            "assets/images/signs_group.jpeg",
+            "assets/images/sign_sander.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "workshops",
+      "name": "סדנאות",
+      "intro": "סדנאות אישיות וקבוצתיות ליצירת מוצר בשילוב עץ ואפוקסי.",
+      "cover": "assets/images/workshop_1.jpeg",
+      "products": [
+        {
+          "name": "סדנה אישית",
+          "price": "700 ₪",
+          "description": "שני מפגשים בני שעתיים וחצי כל אחד להכנת מוצר בשילוב עץ ואפוקסי.",
+          "image": "assets/images/workshop_1.jpeg",
+          "gallery": [
+            "assets/images/workshop_1.jpeg",
+            "assets/images/workshop_2.jpeg"
+          ]
+        },
+        {
+          "name": "סדנאות קבוצתיות",
+          "price": "בתיאום ישיר",
+          "description": "סדנאות לקבוצות, משפחות ואירועים. לתיאום ישיר מול טל.",
+          "image": "assets/images/workshop_3.jpeg",
+          "gallery": [
+            "assets/images/workshop_3.jpeg"
+          ]
+        }
+      ]
+    }
+  ],
+  "exhibitions": [
+    {
+      "title": "תערוכות וירידי אומנות",
+      "date": "מתעדכן",
+      "location": "ישראל",
+      "description": "כאן ניתן לעדכן תערוכות חדשות, ירידים ואירועי מכירה.",
+      "image": "assets/images/exhibition.jpeg",
+      "active": true
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "לקוח מרוצה",
+      "text": "עבודה יפהפייה, שירות אישי וגימור מוקפד.",
+      "rating": "5"
+    },
+    {
+      "name": "הזמנה אישית",
+      "text": "טל הקשיב לרעיון והפך אותו למוצר מיוחד עם הרבה אופי.",
+      "rating": "5"
+    }
+  ]
+}
