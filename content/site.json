@@ -32,6 +32,7 @@
     "title": "אודות טל עברי",
     "image": "assets/images/Tal_Handcrafted_woodwork_01.jpeg",
     "gallery": [
+      "assets/images/Tal_Handcrafted_Wood_&_Epoxy_Artwork_01.jpeg",
       "assets/images/Tal_Handcrafted_woodwork_01.jpeg",
       "assets/images/Tal_Handcrafted_woodwork_02.jpeg",
       "assets/images/Tal_Handcrafted_woodwork_03.jpeg",
@@ -42,10 +43,7 @@
       "assets/images/Planting_Memorial_Vineyard.jpeg",
       "assets/images/Outdoor_Calisthenics_Training.jpeg",
       "assets/images/music_is_essential_to_life.jpeg",
-      "assets/images/tal_piano.jpeg",
-      "assets/images/tal_ski.jpeg",
-      "assets/images/tal_vineyard.jpeg",
-      "assets/images/tal_work.jpeg"
+      "assets/images/Tal_Exhibitions_&_Events.jpeg"
     ],
     "text": "אני בן 16, ו־T-Art נולדה מתוך אהבה פשוטה ליצירה.\n\nהכול התחיל אצלי בבית – מעבודות קטנות בעץ, אפוקסי ומתכת שיצרתי לעצמי ולמשפחה. אהבתי לקחת חומרי גלם טבעיים, לשלב ביניהם וליצור פריטים מיוחדים, כאלה שיש להם אופי וסיפור.\n\nעם הזמן, אנשים סביבי התחילו להתעניין ביצירות, לבקש עבודות עבורם ולהזמין מוצרים בהתאמה אישית. מה שהתחיל כתחביב ואהבה ליצירה, הפך בהדרגה לעסק קטן שצומח ומתפתח.\n\nמתוך עולם האמנות בעץ נולדו גם פרויקטים גדולים יותר – בניית פרגולות, גדרות, עבודות ריתוך, נפחות ועבודות מתכת שונות. כל תחום חדש אפשר לי ללמוד, להתפתח ולהוסיף כלים חדשים לעולם היצירה שלי.\n\nכשאני לא בסטודיו, אני מתאמן באימוני משקל גוף, אוהב לטייל, לעשות סקי, להרחיב ולהעשיר את הידע הכללי שלי, מנגן, מדריך בבני עקיבא ומבלה זמן עם משפחה וחברים.\n\nהשנה נטעתי כרם ענבים לזכר נופלי אפרת – פרויקט אישי שמחבר אותי לאדמה, לזיכרון ולעשייה משמעותית.\n\nהחלום שלי הוא להמשיך ליצור, להתפתח ולבנות את T-Art כסטודיו ישראלי לאמנות בעץ, אפוקסי ומתכת – מקום שבו כל יצירה היא יחידה במינה.",
     "videos": [
@@ -66,90 +64,56 @@
           "price": "500–700 ₪",
           "description": "שילוב עץ טבעי ורגלי ברזל בעבודת יד.",
           "image": "assets/images/coffee_table_01.jpeg",
-          "gallery": [
-            "assets/images/coffee_table_01.jpeg"
-          ]
-        },
-        {
-          "name": "שולחן קפה 2",
-          "price": "500–700 ₪",
-          "description": "שולחן קפה בעבודת יד.",
-          "image": "assets/images/coffee_table_02.jpeg",
-          "gallery": [
-            "assets/images/coffee_table_02.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "ספסל / פריט עץ לבית",
           "price": "בתיאום ישיר",
           "description": "פריט עץ לבית בעבודת יד.",
           "image": "assets/images/bench.jpeg",
-          "gallery": [
-            "assets/images/bench.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "קרש לחלה",
           "price": "300 ₪",
           "description": "שילוב עץ זית / סיסם הודי ואפוקסי.",
           "image": "assets/images/challah_board_01.jpeg",
-          "gallery": [
-            "assets/images/challah_board_01.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "קרש לחלה 2",
           "price": "300 ₪",
           "description": "קרש לחלה בעבודת יד.",
           "image": "assets/images/challah_board_02.jpeg",
-          "gallery": [
-            "assets/images/challah_board_02.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "קרש לחלה 3",
           "price": "300 ₪",
           "description": "קרש לחלה בעבודת יד.",
           "image": "assets/images/challah_board_03.jpeg",
-          "gallery": [
-            "assets/images/challah_board_03.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "קרש לחלה 4",
           "price": "300 ₪",
           "description": "קרש לחלה בעבודת יד.",
           "image": "assets/images/challah_board_04.jpeg",
-          "gallery": [
-            "assets/images/challah_board_04.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "קרש לחלה 5",
           "price": "300 ₪",
           "description": "קרש לחלה בעבודת יד.",
           "image": "assets/images/challah_board_05.jpeg",
-          "gallery": [
-            "assets/images/challah_board_05.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "תמונה בחריטה ואפוקסי",
           "price": "החל מ־700 ₪",
           "description": "תמונה לפי הזמנה אישית, חריטה ואפוקסי.",
           "image": "assets/images/wall_picture_01.jpeg",
-          "gallery": [
-            "assets/images/wall_picture_01.jpeg"
-          ]
-        },
-        {
-          "name": "תמונה בחריטה ואפוקסי 2",
-          "price": "החל מ־700 ₪",
-          "description": "תמונה לפי הזמנה אישית, חריטה ואפוקסי.",
-          "image": "assets/images/wall_picture_02.jpeg",
-          "gallery": [
-            "assets/images/wall_picture_02.jpeg"
-          ]
+          "gallery": []
         }
       ]
     },
@@ -164,141 +128,110 @@
           "price": "200 ₪",
           "description": "מזוזה בעבודת יד מעץ ואפוקסי. ניתן להזמין בהתאמה אישית.",
           "image": "assets/images/Handmade_Mezuzah_01.jpeg",
-          "gallery": [
-            "assets/images/Handmade_Mezuzah_01.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "מזוזה 18 ס״מ",
           "price": "180 ₪",
           "description": "מזוזה בעבודת יד מעץ ואפוקסי.",
           "image": "assets/images/Handmade_Mezuzah_010.jpeg",
-          "gallery": [
-            "assets/images/Handmade_Mezuzah_010.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "מזוזה בהזמנה אישית",
           "price": "בתיאום ישיר",
           "description": "אפשרות לעיצוב אישי לפי צבע, גודל וסגנון.",
           "image": "assets/images/Handmade_Mezuzah_02.jpeg",
-          "gallery": [
-            "assets/images/Handmade_Mezuzah_02.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "מזוזה 20 ס״מ",
           "price": "200 ₪",
           "description": "מזוזה בעבודת יד מעץ ואפוקסי. ניתן להזמין בהתאמה אישית.",
           "image": "assets/images/Handmade_Mezuzah_03.jpeg",
-          "gallery": [
-            "assets/images/Handmade_Mezuzah_03.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "מזוזה 18 ס״מ",
           "price": "180 ₪",
           "description": "מזוזה בעבודת יד מעץ ואפוקסי.",
           "image": "assets/images/Handmade_Mezuzah_04.jpeg",
-          "gallery": [
-            "assets/images/Handmade_Mezuzah_04.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "מזוזה בהזמנה אישית",
           "price": "בתיאום ישיר",
           "description": "אפשרות לעיצוב אישי לפי צבע, גודל וסגנון.",
           "image": "assets/images/Handmade_Mezuzah_05.jpeg",
-          "gallery": [
-            "assets/images/Handmade_Mezuzah_05.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "מזוזה 20 ס״מ",
           "price": "200 ₪",
           "description": "מזוזה בעבודת יד מעץ ואפוקסי. ניתן להזמין בהתאמה אישית.",
           "image": "assets/images/Handmade_Mezuzah_07.jpeg",
-          "gallery": [
-            "assets/images/Handmade_Mezuzah_07.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "מזוזה 18 ס״מ",
           "price": "180 ₪",
           "description": "מזוזה בעבודת יד מעץ ואפוקסי.",
           "image": "assets/images/Handmade_Mezuzah_08.jpg",
-          "gallery": [
-            "assets/images/Handmade_Mezuzah_08.jpg"
-          ]
+          "gallery": []
         },
         {
           "name": "מזוזה בהזמנה אישית",
           "price": "בתיאום ישיר",
           "description": "אפשרות לעיצוב אישי לפי צבע, גודל וסגנון.",
           "image": "assets/images/Handmade_Mezuzah_09.jpeg",
-          "gallery": [
-            "assets/images/Handmade_Mezuzah_09.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "מזוזה 20 ס״מ",
           "price": "200 ₪",
           "description": "מזוזה בעבודת יד מעץ ואפוקסי. ניתן להזמין בהתאמה אישית.",
           "image": "assets/images/Handmade_Mezuzah_12.jpeg",
-          "gallery": [
-            "assets/images/Handmade_Mezuzah_12.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "מזוזה 20 ס״מ",
           "price": "200 ₪",
           "description": "מזוזה בעבודת יד מעץ ואפוקסי. ניתן להזמין בהתאמה אישית.",
           "image": "assets/images/Handmade_Mezuzah_Blue_01.jpeg",
-          "gallery": [
-            "assets/images/Handmade_Mezuzah_Blue_01.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "מזוזה 20 ס״מ",
           "price": "200 ₪",
           "description": "מזוזה בעבודת יד מעץ ואפוקסי. ניתן להזמין בהתאמה אישית.",
           "image": "assets/images/Handmade_Mezuzah_Blue_02.jpeg",
-          "gallery": [
-            "assets/images/Handmade_Mezuzah_Blue_02.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "מזוזה 20 ס״מ",
           "price": "200 ₪",
           "description": "מזוזה בעבודת יד מעץ ואפוקסי. ניתן להזמין בהתאמה אישית.",
           "image": "assets/images/mezuzah_blue.jpeg",
-          "gallery": [
-            "assets/images/mezuzah_blue.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "מזוזה 18 ס״מ",
           "price": "180 ₪",
           "description": "מזוזה בעבודת יד מעץ ואפוקסי.",
           "image": "assets/images/mezuzah_group.jpeg",
-          "gallery": [
-            "assets/images/mezuzah_group.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "מזוזה בהזמנה אישית",
           "price": "בתיאום ישיר",
           "description": "אפשרות לעיצוב אישי לפי צבע, גודל וסגנון.",
           "image": "assets/images/mezuzah_orange.jpeg",
-          "gallery": [
-            "assets/images/mezuzah_orange.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "סיפור המזוזה עם הרסיסים",
-          "price": "בהזמנה אישית",
-          "description": "סרטון המספר על מזוזה מיוחדת שבה שולבו רסיסים שנכנסו לחייל — יצירה עם משמעות אישית וזיכרון.",
-          "image": "assets/images/Handmade_Mezuzah_01.jpeg",
+          "price": "",
+          "description": "סרטון קצר על הסיפור שמאחורי המזוזה עם הרסיסים.",
           "video": "assets/images/The_Story_Behind_the_Shrapnel_Mezuzah.mp4",
           "gallery": []
         }
@@ -315,38 +248,28 @@
           "price": "240 ₪",
           "description": "מעמד ליין כולל כוסות יין.",
           "image": "assets/images/wine_yael.jpeg",
-          "gallery": [
-            "assets/images/wine_yael.jpeg",
-            "assets/images/wine_pair.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "דגם יעל",
           "price": "130 ₪",
           "description": "מעמד אלכסוני עץ ואפוקסי.",
-          "image": "assets/images/Handmade_wine_holder_016.jpeg",
-          "gallery": [
-            "assets/images/Handmade_wine_holder_016.jpeg"
-          ]
+          "image": "assets/images/Handmade_wine_holder_03.jpeg",
+          "gallery": []
         },
         {
           "name": "מארז בראשית",
           "price": "300 ₪",
           "description": "כולל יין וכוסות.",
           "image": "assets/images/Handmade_Bereshit_wine_holder_01.jpeg",
-          "gallery": [
-            "assets/images/Handmade_Bereshit_wine_holder_01.jpeg",
-            "assets/images/wine_beresheet.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "דגם יעל אורן",
           "price": "40 ₪",
           "description": "מעמד אלכסוני מעץ אורן שרוף עתיק.",
-          "image": "assets/images/Handmade_wine_holder_03.jpeg",
-          "gallery": [
-            "assets/images/Handmade_wine_holder_03.jpeg"
-          ]
+          "image": "assets/images/Handmade_wine_holder_016.jpeg",
+          "gallery": []
         }
       ]
     },
@@ -354,159 +277,50 @@
       "id": "shtenders",
       "name": "סטנדרים",
       "intro": "סטנדרים מעץ זית / סיסם הודי ואפוקסי בעבודת יד.",
-      "cover": "assets/images/shtender_01.jpeg",
+      "cover": "assets/images/shtender_Yishai.jpeg",
       "products": [
+        {
+          "name": "סטנדר ישי",
+          "price": "450 ₪",
+          "description": "סטנדר אישי בעבודת יד בשילוב עץ ואפוקסי.",
+          "image": "assets/images/shtender_Yishai.jpeg",
+          "gallery": []
+        },
         {
           "name": "סטנדר עץ ואפוקסי",
           "price": "450 ₪",
           "description": "סטנדר בעבודת יד בשילוב עץ זית / סיסם הודי ואפוקסי.",
           "image": "assets/images/shtender_01.jpeg",
-          "gallery": [
-            "assets/images/shtender_01.jpeg"
-          ]
-        },
-        {
-          "name": "סטנדר 1",
-          "price": "450 ₪",
-          "description": "סטנדר בעבודת יד בשילוב עץ זית / סיסם הודי ואפוקסי.",
-          "image": "assets/images/shtender_01(1).jpeg",
-          "gallery": [
-            "assets/images/shtender_01(1).jpeg"
-          ]
-        },
-        {
-          "name": "סטנדר 2",
-          "price": "450 ₪",
-          "description": "סטנדר בעבודת יד בשילוב עץ זית / סיסם הודי ואפוקסי.",
-          "image": "assets/images/shtender_02.jpeg",
-          "gallery": [
-            "assets/images/shtender_02.jpeg"
-          ]
-        },
-        {
-          "name": "סטנדר 3",
-          "price": "450 ₪",
-          "description": "סטנדר בעבודת יד בשילוב עץ זית / סיסם הודי ואפוקסי.",
-          "image": "assets/images/shtender_03.jpeg",
-          "gallery": [
-            "assets/images/shtender_03.jpeg"
-          ]
-        },
-        {
-          "name": "סטנדר 4",
-          "price": "450 ₪",
-          "description": "סטנדר בעבודת יד בשילוב עץ זית / סיסם הודי ואפוקסי.",
-          "image": "assets/images/shtender_04.jpeg",
-          "gallery": [
-            "assets/images/shtender_04.jpeg"
-          ]
-        },
-        {
-          "name": "סטנדר 5",
-          "price": "450 ₪",
-          "description": "סטנדר בעבודת יד בשילוב עץ זית / סיסם הודי ואפוקסי.",
-          "image": "assets/images/shtender_05.jpeg",
-          "gallery": [
-            "assets/images/shtender_05.jpeg"
-          ]
-        },
-        {
-          "name": "סטנדר 6",
-          "price": "450 ₪",
-          "description": "סטנדר בעבודת יד בשילוב עץ זית / סיסם הודי ואפוקסי.",
-          "image": "assets/images/shtender_06.jpeg",
-          "gallery": [
-            "assets/images/shtender_06.jpeg"
-          ]
-        },
-        {
-          "name": "סטנדר אישי — ישי",
-          "price": "450 ₪",
-          "description": "סטנדר בעבודת יד בשילוב עץ זית / סיסם הודי ואפוקסי.",
-          "image": "assets/images/shtender_Yishai.jpeg",
-          "gallery": [
-            "assets/images/shtender_Yishai.jpeg"
-          ]
-        },
-        {
-          "name": "סטנדר פתוח",
-          "price": "450 ₪",
-          "description": "סטנדר בעבודת יד בשילוב עץ זית / סיסם הודי ואפוקסי.",
-          "image": "assets/images/standard_open.jpeg",
-          "gallery": [
-            "assets/images/standard_open.jpeg"
-          ]
-        },
-        {
-          "name": "סטנדר סגור",
-          "price": "450 ₪",
-          "description": "סטנדר בעבודת יד בשילוב עץ זית / סיסם הודי ואפוקסי.",
-          "image": "assets/images/standard_closed.jpeg",
-          "gallery": [
-            "assets/images/standard_closed.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "פרט סטנדר",
           "price": "450 ₪",
-          "description": "סטנדר בעבודת יד בשילוב עץ זית / סיסם הודי ואפוקסי.",
-          "image": "assets/images/standard_detail.jpeg",
-          "gallery": [
-            "assets/images/standard_detail.jpeg"
-          ]
+          "description": "תקריב לפרטי העץ, הגימור והאפוקסי בסטנדר.",
+          "image": "assets/images/shtender_04.jpeg",
+          "gallery": []
         }
       ]
     },
     {
       "id": "signs",
       "name": "שלטים לבית",
-      "intro": "שלטים אישיים לבית בחריטה, עץ, אפוקסי ואותיות אלומיניום.",
+      "intro": "שלטים אישיים לבית בחריטה, עץ, אפוקסי ואותיות אלומיניום. ניתן להזמין אותיות אלומיניום בלייזר בתוספת 25 ש״ח לאות.",
       "cover": "assets/images/Custom_Home_Signs_01.jpeg",
       "products": [
         {
-          "name": "שלט לבית בהתאמה אישית",
+          "name": "דגם נוה",
           "price": "200 ₪",
-          "description": "חריטה בעץ ושילוב אפוקסי. ניתן להזמין אותיות אלומיניום בלייזר בתוספת 25 ש״ח לאות.",
+          "description": "שלט לבית בהתאמה אישית בעבודת יד. ניתן להוסיף אותיות אלומיניום בלייזר בתוספת 25 ש״ח לאות.",
           "image": "assets/images/Custom_Home_Signs_01.jpeg",
-          "gallery": [
-            "assets/images/Custom_Home_Signs_01.jpeg"
-          ]
+          "gallery": []
         },
         {
-          "name": "שלט לבית בהתאמה אישית 2",
+          "name": "דגם מעיין",
           "price": "200 ₪",
-          "description": "חריטה בעץ ושילוב אפוקסי. ניתן להזמין אותיות אלומיניום בלייזר בתוספת 25 ש״ח לאות.",
+          "description": "שלט לבית בהתאמה אישית בעיצוב עץ ואפוקסי. ניתן להוסיף אותיות אלומיניום בלייזר בתוספת 25 ש״ח לאות.",
           "image": "assets/images/Custom_Home_Signs_02.jpeg",
-          "gallery": [
-            "assets/images/Custom_Home_Signs_02.jpeg"
-          ]
-        },
-        {
-          "name": "שלט לבית בהתאמה אישית 3",
-          "price": "200 ₪",
-          "description": "חריטה בעץ ושילוב אפוקסי. ניתן להזמין אותיות אלומיניום בלייזר בתוספת 25 ש״ח לאות.",
-          "image": "assets/images/Custom_Home_Signs_03.jpeg",
-          "gallery": [
-            "assets/images/Custom_Home_Signs_03.jpeg"
-          ]
-        },
-        {
-          "name": "שלט לבית בהתאמה אישית 4",
-          "price": "200 ₪",
-          "description": "חריטה בעץ ושילוב אפוקסי. ניתן להזמין אותיות אלומיניום בלייזר בתוספת 25 ש״ח לאות.",
-          "image": "assets/images/signs_group.jpeg",
-          "gallery": [
-            "assets/images/signs_group.jpeg"
-          ]
-        },
-        {
-          "name": "שלט לבית בהתאמה אישית 5",
-          "price": "200 ₪",
-          "description": "חריטה בעץ ושילוב אפוקסי. ניתן להזמין אותיות אלומיניום בלייזר בתוספת 25 ש״ח לאות.",
-          "image": "assets/images/sign_sander.jpeg",
-          "gallery": [
-            "assets/images/sign_sander.jpeg"
-          ]
+          "gallery": []
         }
       ]
     },
@@ -519,93 +333,27 @@
         {
           "name": "סדנה אישית",
           "price": "700 ₪",
-          "description": "סדנה אישית או קבוצתית ליצירת מוצר בשילוב עץ ואפוקסי.",
+          "description": "שני מפגשים בני שעתיים וחצי כל אחד להכנת מוצר בשילוב עץ ואפוקסי.",
           "image": "assets/images/workshop_01.jpeg",
-          "gallery": [
-            "assets/images/workshop_01.jpeg"
-          ]
+          "gallery": []
         },
         {
           "name": "סדנה קבוצתית",
           "price": "בתיאום ישיר",
-          "description": "סדנה אישית או קבוצתית ליצירת מוצר בשילוב עץ ואפוקסי.",
+          "description": "סדנאות לקבוצות, משפחות ואירועים. לתיאום ישיר מול טל.",
           "image": "assets/images/workshop_02.jpeg",
-          "gallery": [
-            "assets/images/workshop_02.jpeg"
-          ]
-        },
-        {
-          "name": "סדנה 3",
-          "price": "בתיאום ישיר",
-          "description": "סדנה אישית או קבוצתית ליצירת מוצר בשילוב עץ ואפוקסי.",
-          "image": "assets/images/workshop_03.jpeg",
-          "gallery": [
-            "assets/images/workshop_03.jpeg"
-          ]
-        },
-        {
-          "name": "סדנה 4",
-          "price": "בתיאום ישיר",
-          "description": "סדנה אישית או קבוצתית ליצירת מוצר בשילוב עץ ואפוקסי.",
-          "image": "assets/images/workshop_04.jpeg",
-          "gallery": [
-            "assets/images/workshop_04.jpeg"
-          ]
-        },
-        {
-          "name": "סדנה 5",
-          "price": "בתיאום ישיר",
-          "description": "סדנה אישית או קבוצתית ליצירת מוצר בשילוב עץ ואפוקסי.",
-          "image": "assets/images/workshop_05.jpeg",
-          "gallery": [
-            "assets/images/workshop_05.jpeg"
-          ]
-        },
-        {
-          "name": "סדנה 6",
-          "price": "בתיאום ישיר",
-          "description": "סדנה אישית או קבוצתית ליצירת מוצר בשילוב עץ ואפוקסי.",
-          "image": "assets/images/workshop_06.jpeg",
-          "gallery": [
-            "assets/images/workshop_06.jpeg"
-          ]
-        },
-        {
-          "name": "סדנה 7",
-          "price": "בתיאום ישיר",
-          "description": "סדנה אישית או קבוצתית ליצירת מוצר בשילוב עץ ואפוקסי.",
-          "image": "assets/images/workshop_07.jpeg",
-          "gallery": [
-            "assets/images/workshop_07.jpeg"
-          ]
-        },
-        {
-          "name": "סדנה 8",
-          "price": "בתיאום ישיר",
-          "description": "סדנה אישית או קבוצתית ליצירת מוצר בשילוב עץ ואפוקסי.",
-          "image": "assets/images/workshop_1.jpeg",
-          "gallery": [
-            "assets/images/workshop_1.jpeg"
-          ]
-        },
-        {
-          "name": "סדנה 9",
-          "price": "בתיאום ישיר",
-          "description": "סדנה אישית או קבוצתית ליצירת מוצר בשילוב עץ ואפוקסי.",
-          "image": "assets/images/workshop_2.jpeg",
-          "gallery": [
-            "assets/images/workshop_2.jpeg"
-          ]
-        },
-        {
-          "name": "סדנה 10",
-          "price": "בתיאום ישיר",
-          "description": "סדנה אישית או קבוצתית ליצירת מוצר בשילוב עץ ואפוקסי.",
-          "image": "assets/images/workshop_3.jpeg",
-          "gallery": [
-            "assets/images/workshop_3.jpeg"
-          ]
+          "gallery": []
         }
+      ],
+      "gallery": [
+        "assets/images/workshop_03.jpeg",
+        "assets/images/workshop_04.jpeg",
+        "assets/images/workshop_05.jpeg",
+        "assets/images/workshop_06.jpeg",
+        "assets/images/workshop_07.jpeg",
+        "assets/images/workshop_1.jpeg",
+        "assets/images/workshop_2.jpeg",
+        "assets/images/workshop_3.jpeg"
       ]
     }
   ],
@@ -619,7 +367,7 @@
       "active": true
     },
     {
-      "title": "תצוגת עבודות T-Art",
+      "title": "תערוכה / יריד",
       "date": "מתעדכן",
       "location": "ישראל",
       "description": "תמונה נוספת מתערוכה או יריד.",
