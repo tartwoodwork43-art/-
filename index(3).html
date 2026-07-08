@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>T-Art | אמנות בעץ, אפוקסי ומתכת</title>
+  <meta name="description" content="T-Art - אמנות בעץ, אפוקסי ומתכת. יצירות בעבודת יד, מזוזות, סטנדרים, שלטים לבית, מעמדים ליין וסדנאות." />
+  <link rel="icon" href="assets/images/logo.jpeg" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="T-Art">
+        <img id="logo" alt="T-Art logo" />
+        <span>
+          <strong id="businessName">T-Art</strong>
+          <small id="subtitle">אמנות בעץ, אפוקסי ומתכת</small>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-label="פתיחת תפריט" aria-expanded="false">☰</button>
+      <nav class="main-nav" aria-label="ניווט ראשי">
+        <a href="#about">על טל</a>
+        <a href="#gallery">גלריה</a>
+        <a href="#categories">קטגוריות</a>
+        <a href="#testimonials">לקוחות מספרים</a>
+        <a href="#contact">צור קשר</a>
+        <a class="btn whatsapp nav-cta" id="navWhatsapp" target="_blank" rel="noopener">הזמנת יצירה</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" id="location"></p>
+          <h1 id="heroTitle"></h1>
+          <p id="heroText"></p>
+          <div class="hero-actions">
+            <a class="btn whatsapp" id="heroWhatsapp" target="_blank" rel="noopener">דברו עם טל</a>
+            <a class="btn secondary" href="#categories">לצפייה בעבודות</a>
+          </div>
+        </div>
+        <div class="hero-slider" id="heroSlider" aria-label="תמונות ראשיות"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container about-grid">
+        <div>
+          <h2 id="aboutTitle"></h2>
+          <p id="aboutText"></p>
+        </div>
+        <div class="about-gallery" id="aboutGallery"></div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section dark-section">
+      <div class="container">
+        <div class="section-head">
+          <h2>גלריה</h2>
+          <p>מבחר עבודות, תהליכי יצירה ורגעים מהסטודיו.</p>
+        </div>
+        <div class="media-grid" id="mainGallery"></div>
+      </div>
+    </section>
+
+    <section id="categories" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>קטגוריות</h2>
+          <p>בחרו קטגוריה לצפייה בעבודות.</p>
+        </div>
+        <div class="categories-grid" id="categoriesGrid"></div>
+        <div id="categorySections"></div>
+      </div>
+    </section>
+
+    <section id="videos" class="section dark-section">
+      <div class="container">
+        <div class="section-head">
+          <h2>סרטונים</h2>
+          <p>הצצה לתהליכי היצירה ולסיפורים שמאחורי העבודות.</p>
+        </div>
+        <div class="videos-grid" id="videosGrid"></div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>לקוחות מספרים</h2>
+          <p>חוויות של אנשים שבחרו ביצירה בעבודת יד.</p>
+        </div>
+        <div class="testimonials-grid" id="testimonialsGrid"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div>
+          <h2>צור קשר</h2>
+          <p>לשאלות, הזמנות אישיות, סדנאות או התאמת יצירה לבית.</p>
+          <div class="contact-actions">
+            <a class="btn whatsapp" id="contactWhatsapp" target="_blank" rel="noopener">שליחת WhatsApp</a>
+            <a class="btn secondary" id="contactEmail">שליחת מייל</a>
+          </div>
+        </div>
+        <div class="contact-card">
+          <p><strong>טלפון:</strong> <span id="phone"></span></p>
+          <p><strong>WhatsApp:</strong> <span id="whatsapp"></span></p>
+          <p><strong>מייל:</strong> <span id="email"></span></p>
+          <p><strong>אזור:</strong> <span id="location2"></span></p>
+          <div class="social-links">
+            <a id="instagram" target="_blank" rel="noopener">Instagram</a>
+            <a id="facebook" target="_blank" rel="noopener">Facebook</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="סגירה">×</button>
+    <img alt="" />
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> T-Art. כל הזכויות שמורות.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
