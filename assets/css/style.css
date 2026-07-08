@@ -5,3 +5,32 @@
 /* v8 final small media framing fixes */
 .about-media-card img[src*="Tal_Handcrafted_woodwork_04.jpeg"]{object-position:center top;}
 .product-card img[src*="Custom_Home_Signs_03.jpeg"],.cat-card img[src*="Custom_Home_Signs_03.jpeg"]{object-position:center center;}
+
+
+/* v9 reviews form CTA */
+.review-actions{
+  margin-top:28px;
+  padding:28px;
+  border-radius:24px;
+  background:#fffdf9;
+  border:1px solid rgba(176,141,87,.28);
+  box-shadow:0 18px 42px rgba(52,41,30,.08);
+  text-align:center;
+}
+.review-actions p{
+  margin:0 0 18px;
+  font-size:18px;
+  line-height:1.7;
+  color:var(--text);
+}
+.review-buttons{
+  display:flex;
+  flex-wrap:wrap;
+  gap:14px;
+  justify-content:center;
+}
+@media(max-width:850px){
+  .review-actions{padding:22px}
+  .review-buttons{flex-direction:column}
+  .review-buttons .btn{width:100%}
+}
