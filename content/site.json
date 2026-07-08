@@ -37,8 +37,6 @@
       "assets/images/Tal_Handcrafted_woodwork_02.jpeg",
       "assets/images/Tal_Handcrafted_woodwork_03.jpeg",
       "assets/images/Tal_Handcrafted_woodwork_04.jpeg",
-      "assets/images/Tal_Handcrafted_Ironwork_01.jpeg",
-      "assets/images/Tal_Handcrafted_Ironwork_02.jpeg",
       "assets/images/Tal_Handcrafted_Ironwork_03.jpeg",
       "assets/images/Planting_Memorial_Vineyard.jpeg",
       "assets/images/Outdoor_Calisthenics_Training.jpeg",
@@ -254,7 +252,7 @@
           "name": "דגם יעל",
           "price": "130 ₪",
           "description": "מעמד אלכסוני עץ ואפוקסי.",
-          "image": "assets/images/Handmade_wine_holder_03.jpeg",
+          "image": "assets/images/Handmade_wine_holder_016.jpeg",
           "gallery": []
         },
         {
@@ -268,7 +266,7 @@
           "name": "דגם יעל אורן",
           "price": "40 ₪",
           "description": "מעמד אלכסוני מעץ אורן שרוף עתיק.",
-          "image": "assets/images/Handmade_wine_holder_016.jpeg",
+          "image": "assets/images/Handmade_wine_holder_03.jpeg",
           "gallery": []
         }
       ]
@@ -319,7 +317,7 @@
           "name": "דגם מעיין",
           "price": "200 ₪",
           "description": "שלט לבית בהתאמה אישית בעיצוב עץ ואפוקסי. ניתן להוסיף אותיות אלומיניום בלייזר בתוספת 25 ש״ח לאות.",
-          "image": "assets/images/Custom_Home_Signs_02.jpeg",
+          "image": "assets/images/Custom_Home_Signs_03.jpeg",
           "gallery": []
         }
       ]
