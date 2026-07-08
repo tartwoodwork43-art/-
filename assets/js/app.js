@@ -159,6 +159,22 @@ async function init() {
     $('#testimonialsGrid').appendChild(card);
   });
 
+  if (d.settings.reviewForm) {
+    const reviewWrap = document.createElement('div');
+    reviewWrap.className = 'review-actions';
+    reviewWrap.innerHTML = `
+      <p>רכשתם יצירה מטל? נשמח לשמוע איך הייתה החוויה.</p>
+      <div class="review-buttons">
+        <a class="btn" href="${d.settings.reviewForm}" target="_blank" rel="noopener">${d.settings.reviewFormText || 'השארת המלצה'}</a>
+        <a class="btn whatsapp" href="${wa(d.settings, 'המלצה על T-Art')}" target="_blank" rel="noopener">שליחת המלצה ב־WhatsApp</a>
+      </div>
+    `;
+    const testimonialsGrid = $('#testimonialsGrid');
+    if (testimonialsGrid && testimonialsGrid.parentElement) {
+      testimonialsGrid.parentElement.appendChild(reviewWrap);
+    }
+  }
+
   $('#phone').textContent = d.settings.phone;
   $('#email').textContent = d.settings.email;
   $('#location').textContent = d.settings.location;
