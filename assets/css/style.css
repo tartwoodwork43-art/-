@@ -34,3 +34,21 @@
   .review-buttons{flex-direction:column}
   .review-buttons .btn{width:100%}
 }
+
+
+/* v10 emergency GitHub Pages fixes: prevent cropped product images and remove duplicate-looking gallery clutter */
+.cat-card img,
+.cat-media,
+.product-card img,
+.product-card video,
+.product-media,
+.product-card.gallery-only .product-media,
+.about-media-card img,
+.about-media-card video {
+  object-fit: contain !important;
+  background: #f3eee6;
+}
+
+.hero-slide img {
+  object-fit: cover !important;
+}
