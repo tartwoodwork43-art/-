@@ -27,6 +27,16 @@ function videoType(path = '') {
   return 'video/mp4';
 }
 
+
+function uniqueList(items = []) {
+  const seen = new Set();
+  return (items || []).filter(item => {
+    if (!item || seen.has(item)) return false;
+    seen.add(item);
+    return true;
+  });
+}
+
 function mediaHtml(path, alt = '', className = '') {
   if (!path) return '';
   const src = mediaSrc(path);
@@ -109,10 +119,7 @@ async function init() {
 
   $('#aboutTitle').textContent = d.about.title;
   $('#aboutText').textContent = d.about.text;
-  const aboutMedia = [];
-  [...(d.about.gallery || []), ...(d.about.videos || [])].forEach(path => {
-    if (path && !aboutMedia.includes(path)) aboutMedia.push(path);
-  });
+  const aboutMedia = uniqueList([...(d.about.gallery || []), ...(d.about.videos || [])]);
   aboutMedia.forEach(path => {
     const wrap = document.createElement('div');
     wrap.className = 'about-media-card';
@@ -126,16 +133,20 @@ async function init() {
     sec.id = `cat-${c.id}`;
     sec.innerHTML = `<div class="container"><div class="section-head"><div><span class="eyebrow">גלריה</span><h2>${c.name}</h2></div><p>${c.intro}</p></div><div class="grid product-grid"></div></div>`;
     const grid = $('.product-grid', sec);
+    const usedMedia = new Set();
 
     (c.products || []).forEach(p => {
       const card = document.createElement('article');
       card.className = 'card product-card';
       const mainMedia = p.video || p.image;
+      if (mainMedia) usedMedia.add(mainMedia);
       card.innerHTML = `${mediaHtml(mainMedia, p.name, 'product-media')}<div class="body"><h3>${p.name}</h3><span class="price">${p.price || ''}</span><p>${p.description || ''}</p><a class="btn whatsapp" href="${wa(d.settings, p.name)}" target="_blank">שלח הודעה על הפריט הזה</a></div>`;
       grid.appendChild(card);
     });
 
-    (c.gallery || []).forEach((path, i) => {
+    uniqueList(c.gallery || []).forEach((path, i) => {
+      if (usedMedia.has(path)) return;
+      usedMedia.add(path);
       const card = document.createElement('article');
       card.className = 'card product-card gallery-only';
       card.innerHTML = mediaHtml(path, `${c.name} ${i + 1}`, 'product-media');
